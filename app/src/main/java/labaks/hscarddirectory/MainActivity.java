@@ -1,15 +1,11 @@
 package labaks.hscarddirectory;
 
 import android.app.Activity;
-import android.app.ListActivity;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.ListView;
 
@@ -17,7 +13,7 @@ public class MainActivity extends Activity {
 
     public static String[] listCards;
     public static int[] backs;
-    private int numberOfCards = 3;
+    protected final int NUMBER_OF_CARDS = 3;
     private ListView listView;
     private EditText searchField;
     private customArrayAdapter adapter;
@@ -55,8 +51,8 @@ public class MainActivity extends Activity {
     }
 
     private void loadBackgrounds() {
-        backs = new int[numberOfCards];
-        for (int i = 0; i < numberOfCards; i++) {
+        backs = new int[NUMBER_OF_CARDS];
+        for (int i = 0; i < NUMBER_OF_CARDS; i++) {
             backs[i] = getBaseContext().getResources().getIdentifier("back_" + Integer.toString(i + 1), "drawable", getBaseContext().getPackageName());
         }
     }
