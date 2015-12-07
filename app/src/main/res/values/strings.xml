@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">HS Card Directory</string>
     <string name="action_settings">Settings</string>
+
+    <string-array name="listCards">
+        <item>Wolfrider</item>
+        <item>Raid Leader</item>
+        <item>Novice Engineer</item>
+    </string-array>
 </resources>
