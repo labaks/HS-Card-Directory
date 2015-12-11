@@ -1,10 +1,30 @@
 <resources>
     <string name="app_name">HS Card Directory</string>
     <string name="action_settings">Settings</string>
+    
+    <!--Card names-->
+    <string name="wolfrider">Wolfrider</string>
+    <string name="raid_leader">Raid Leader</string>
+    <string name="novice_engineer">Novice Engineer</string>
+    
+    <!--Set names-->
+    <string name="basic">Basic</string>
+    
+    <!--Race names-->
+    <string name="none_race">none</string>
 
-    <string-array name="listCards">
-        <item>Wolfrider</item>
-        <item>Raid Leader</item>
-        <item>Novice Engineer</item>
-    </string-array>
+    <!--Class names-->
+    <string name="none_class">none</string>
+
+    <!--Type of card-->
+    <string name="minion">Minion</string>
+    
+    <!--Rarity names-->
+    <string name="free">free</string>
+    
+    <!--Mechanics names    -->
+    <string name="charge">Charge</string>
+    <string name="passive">Passive</string>
+    <string name="battlecry">Battlecry</string>
+
 </resources>
